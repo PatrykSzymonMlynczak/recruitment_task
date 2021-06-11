@@ -19,7 +19,7 @@ public class GitHubServiceImpl implements GitHubService {
     //method is getting credentials
     private GitHub getGitHubInstance() throws IOException {
         return GitHubBuilder
-                .fromPropertyFile("C:\\Projekty\\recruitment_task\\src\\main\\resources\\application.properties")
+                .fromPropertyFile("src/main/resources/application.properties")
                 .build();
     }
 }
