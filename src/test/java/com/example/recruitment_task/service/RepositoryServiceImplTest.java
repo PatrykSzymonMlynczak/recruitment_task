@@ -25,10 +25,10 @@ class RepositoryServiceImplTest {
     @Test
     void shouldReturnGitHubUser() throws IOException {
         //given //when
-        GHRepository ghRepository = repositoryService.findRepository("PatrykSzymonMlynczak", "HTML");
+        GHRepository ghRepository = repositoryService.findRepository("PatrykSzymonMlynczak", "recruitment_task");
         //then
         assertThat(ghRepository).isNotNull();
-        assertThat(ghRepository.getFullName()).isEqualTo("PatrykSzymonMlynczak/HTML");
+        assertThat(ghRepository.getFullName()).isEqualTo("PatrykSzymonMlynczak/recruitment_task");
         assertThat(ghRepository.getStargazersCount()).isEqualTo(0);
     }
 
