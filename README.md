@@ -17,7 +17,8 @@ Github REST Api
 To Deploy Application on your computer, you need Java 8+ and Maven:
 
 1. Pull the project
-2. Command Line:
+>git pull https://github.com/PatrykSzymonMlynczak/recruitment_task.git
+3. Command Line:
 >mvnw clean install
 
 3. Run .jar file with command:
