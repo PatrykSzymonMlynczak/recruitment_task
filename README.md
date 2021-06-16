@@ -3,16 +3,16 @@
 #### This is recruitment task form my internship, resolved according to specific guidelines:
 
 ## Table of contents
-* [General guidlines](#general-guidlines)
-* [Additional guidlines](#additional-guidlines)
+* [General guidelines](#general-guidelines)
+* [Additional guidelines](#additional-guidelines)
 * [Setup](#setup)
 
 
-# General guidlines
+# General guidelines
 ![recruitment task](https://user-images.githubusercontent.com/44747531/121699453-3ae41800-cacf-11eb-8d4f-7411ffc2b8ec.PNG)
 
 
-# Additional guidlines
+# Additional guidelines
 
 " .. among other things, that task verifiers will pay attention to:
 * code cleanliness and good object oriented programming practices
