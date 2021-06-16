@@ -29,7 +29,7 @@ class RepositoryServiceImplTest {
         //then
         assertThat(ghRepository).isNotNull();
         assertThat(ghRepository.getFullName()).isEqualTo("PatrykSzymonMlynczak/recruitment_task");
-        assertThat(ghRepository.getStargazersCount()).isEqualTo(0);
+        assertThat(ghRepository.getStargazersCount()).isEqualTo(1);
     }
 
     @Test
